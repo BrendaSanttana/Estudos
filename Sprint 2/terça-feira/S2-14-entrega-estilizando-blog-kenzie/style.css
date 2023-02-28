@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.conteudo-do-blog {
+    background-image: url(https://st4.depositphotos.com/3203307/21804/i/600/depositphotos_218040352-stock-photo-computer-programming-code-online-safety.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 40px;
+}
+
+.cartao {
+    background-color: rgba(36, 23, 6, 0.8);
+    border: 2px solid rgb(226, 182, 189);
+    border-radius: 6px;
+    width: 80%;
+    margin: 0px auto;
+    color: rgb(245, 235, 235);
+    padding: 15px;
+    margin-bottom: 33px;
+}
+
+.cartao h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cartao a {
+    text-decoration: none;
+    text-align: right;
+    color: pink;
+}
+
+.cartao a:hover {
+    color: white;
+}
+
+.cartao p {
+    margin-bottom: 10px;
+}
+
+.boletim-de-noticiais {
+    background-color: rgb(253, 227, 231);
+    text-align: center;
+    padding: 40px;
+}
+
+.cadastro {
+    background-color: black;
+    width: 60%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 33px;
+    color: white;
+}
+
+.cadastro p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cadastro button {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    color: grey;
+}
+
+.cadastro button:hover {
+    background-color: #DEE2E6;
+}
+
+.cadastro input {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cadastro input::placeholder {
+    color:grey;
+}
+.cadastro input:hover {
+    background-color: #DEE2E6;
+}

@@ -1,0 +1,22 @@
+.title-main {
+    font-size:25px;
+    line-height: 25px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.backgorund-blue {
+    background-color: rgba(19, 19, 196, 0.747);
+    color: white;
+}
+
+.background-black {
+    background-color: black;
+    color: white;
+}
+
+.text-center {
+    text-align:center;
+}
