@@ -12,22 +12,32 @@
 //}
 //}
 
-
-function tenInTenToAHundred() {
-    for (let i = 1; i < 22; i++) {
-        if (i % 2 !== 0) { 
-            console.log(i) 
-        } 
-    }
-}
-
-tenInTenToAHundred()
+//function tenInTenToAHundred() {
+    //for (let i = 1; i < 22; i++) {
+        //if (i % 2 !== 0) { 
+           // console.log(i) 
+       // } 
+   // }
+//}
+//tenInTenToAHundred()
 
 //function oddUpToTwenty() {
-  //  for (let i = 2; i < 22; i++) {
-       // if (i % 2 === 0)
-           // console.log(i)
-   // }
+//  for (let i = 2; i < 22; i++) {
+      // if (i % 2 === 0)
+       // console.log(i)
+    //}
 //}
 
 //oddUpToTwenty()
+
+
+//function fromNegativeToPositive() {
+    //for (let i = 0; i >= -10; i--) {
+    //console.log(i)
+//}
+  //}
+// fromNegativeToPositive()
+
+for (let i = 0; i >= 10; i--) {
+    console.log(i)
+}
