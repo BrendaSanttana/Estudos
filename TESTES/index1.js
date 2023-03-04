@@ -1,16 +1,15 @@
 function validacao (email, senha) {
     const emailValido = "brenda.nsantana@outlook.com"
-    const senhaValido = "brendasantana"
+    const senhaValida = "brendasantana"
 
-    if (emailValida === email && senhaValida === senha){
+    if (emailValido === email && senhaValida === senha) {
         return true
     }
-    {
     return false
-    }
+    
 }
 
-//console.log(validacao("brenda.nsantana@outlook.com", "brendasantana"))
+console.log(validacao("brenda.nsantana@outlook.com", "brendasantana"))
 
 
 
