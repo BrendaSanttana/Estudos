@@ -15,7 +15,7 @@
 
 let numeros = [10, 20, 30];
 
-for (let sum of numeros) {
-    sum += 1;
-    console.log(sum);
+for (let numero of numeros) {
+    numero += 1;
+    console.log(numero);
 }
