@@ -9,41 +9,22 @@
 */
 let valorProduto1 = 10;
 let saldoCarteira1 = 5;
-let valorProduto2 = 5;
-let saldoCarteira2 = 10;
-let valorProduto3 = 10;
-let saldoCarteira3 = 10;
 
 
-function valideCompra(valorProduto, saldoCarteira) {
-    if(saldoCarteira > valorProduto) {
+function valideCompra(precoProduto, valorCarteira) {
+    if(valorCarteira > precoProduto) {
         return "saldo insuficiente"
 
     }
-    else if(saldoCarteira === valorProduto) {
+    else if(valorCarteira === precoProduto) {
         return "compra realizada não há troco a receber"
 
     } else {
 
         return "compra realizada, pegue seu troco no caixa"
     }
-
-    
-/*if (valorProduto === produto && saldoCarteira === carteira) {
-    } else if (saldoCarteira >= produto ) {
-        console.log("saldo insuficiente")
-    } else {
-        console.log ("Compra realizada, pegue seu troco no caixa")
-*/
-/*     if (valorProduto1 > saldoCarteira) {
-    } else if (saldoCarteira1 === valorProduto && valorProduto1 === saldoCarteira ) {
-        console.log("compra realizada não há troco a receber")
-    } else {
-    } */
 }
 
-
-console.log(valideCompra(valorProduto1, saldoCarteira1))
-console.log(valideCompra(valorProduto2, saldoCarteira2))
-console.log(valideCompra(valorProduto3, saldoCarteira3))
-
+console.log(valideCompra(5, 10))
+console.log(valideCompra(10, 10))
+console.log(valideCompra(10, 2))
